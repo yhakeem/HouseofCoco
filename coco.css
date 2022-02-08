@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  background-color: chocolate;
+  margin-bottom: 120px;
+  
+}
+
+.navbar{
+  color: brown;
+
+}
+ 
+.navbar-nav{
+  color: white;
+}
+
+/* .col-md-6{ 
+  height:500px;
+  width:500px;
+}*/
+.container{
+    position: relative;
+    margin:50px auto 0 auto;  
+}
+
+ .container h1{ 
+  color:chocolate;
+  font-size: 100px;
+}
+
+ .container span{ 
+ color:white;
+ font-family: 'Satisfy', cursive;
+}
+
+ 
+
+.heading{
+  margin-top: 160px;
+  margin-left: 100px;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  color:white;
+}
+
+
+.button{
+  height:10%;
+  width: 35%;
+}
+
+.menu p{
+  
+  font-size: 30px;
+  color:#412b15;
+
+}
+
+.menu h3{
+  font-family:'Satisfy', cursive; 
+  font-size:60px;
+  color: white;
+}
+
+.container img{
+
+  width: 100%;
+  height:85%;
+}
+
+.heading img{
+  height:50%;
+}
+
+
+
+ .footer{
+  bottom: 0;
+   color: white;
+    height: 2em;
+    left: 0;
+    position: fixed;  
+    font-size: medium;
+    width:100%;
+    height: fit-content;
+    text-align: center;
+  margin-bottom: 0;
+ background-color: chocolate;
+}
+ 
+
+ 
+
+
+
+ .fa {
+   /* padding: 20px;  */
+  font-size: 50px;
+  width: 50px;
+
+  text-align: center;
+  text-decoration: none;
+   margin: 5px 2px; 
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #007bb5;
+  color: white;
+}
+  
+  
+
+/* Museum of Coco intro */
+.title-1{ 
+  position: absolute;
+  text-align: left;
+  top: 1px;
+color: chocolate;
+
+
+vertical-align: baseline;
+}
+.title-2 {
+    position: absolute;
+    text-align: left;
+     top: 100px; 
+  color:blue;
+  
+}
+
+.title-3 {
+    position: absolute;
+    text-align: left;
+     top: 200px; 
+  color:lightgrey;
+  
+  
+}
+
+.title-4 {
+    position: absolute;
+    text-align: left;
+     top: 300px; 
+  color:burlywood;
+  
+  
+}
+
+.title-5 {
+    position: absolute;
+    text-align: left;
+     top:400px; 
+  color: darkred;
+  
+  
+ 
+}
+
+.title-7 {
+    position: absolute;
+    text-align: left;
+     top: 500px; 
+  color: paleturquoise;
+  
+ 
+}
+.title-8 {
+    position: absolute;
+    text-align: left;
+     top: 600px; 
+  color:blueviolet;
+}
+
+.title-9 {
+  position: absolute;
+  text-align: left;
+   top: 700px; 
+color: green;
+}
+
+
+
+/* Media Queries */
+/* image w/words */
+
+@media only screen and (max-width: 736px){
+  .container h1 { font-size:40px; }
+  .title-1{ 
+    position: absolute;
+    text-align: left;
+    top: 1px;
+  color: chocolate;
+  
+  
+  vertical-align: baseline;
+  }
+  .title-2 {
+      position: absolute;
+      text-align: left;
+       top: 45px; 
+    color:blue;
+    
+  }
+  
+  .title-3 {
+      position: absolute;
+      text-align: left;
+       top: 90px; 
+    color:lightgrey;
+    
+    
+  }
+  
+  .title-4 {
+      position: absolute;
+      text-align: left;
+       top: 135px; 
+    color:burlywood;
+    
+    
+  }
+  
+  .title-5 {
+      position: absolute;
+      text-align: left;
+       top:180px; 
+    color: darkred;
+    
+    
+   
+  }
+  
+  .title-7 {
+      position: absolute;
+      text-align: left;
+       top: 225px; 
+    color: paleturquoise;
+    
+   
+  }
+  .title-8 {
+      position: absolute;
+      text-align: left;
+       top: 270px; 
+    color:blueviolet;
+  }
+  
+  .title-9 {
+    position: absolute;
+    text-align: left;
+     top: 320px; 
+  color: #008000;
+  }
+  /* menu */
+  .menu p{
+    font-size:15px;
+  }
+  #menu{
+    font-size:20px;
+  }
+  /* heading */
+ .heading{
+   
+   margin-top: 0;
+   margin-left: 0;
+ }
+
+ .heading h2{
+   font-size: 15px;
+   text-align: center;
+ }
+
+ .button{
+   text-align: center;
+ }
+
+ .navbar{
+   font-size:10px;
+ }
+
+
+ 
+
+ 
+
+}
+/* iphones */
+@media only screen and (max-width: 812px){
+  .container h1 { font-size:40px; }
+
+  .title-1{ 
+    position: absolute;
+    text-align: left;
+    top: 1px;
+  color: chocolate;
+  
+  
+  vertical-align: baseline;
+  }
+  .title-2 {
+      position: absolute;
+      text-align: left;
+       top: 50px; 
+    color:blue;
+    
+  }
+  
+  .title-3 {
+      position: absolute;
+      text-align: left;
+       top: 90px; 
+    color:lightgrey;
+    
+    
+  }
+  
+  .title-4 {
+      position: absolute;
+      text-align: left;
+       top: 130px; 
+    color:burlywood;
+    
+    
+  }
+  
+  .title-5 {
+      position: absolute;
+      text-align: left;
+       top:170px; 
+    color: darkred;
+    
+    
+   
+  }
+  
+  .title-7 {
+      position: absolute;
+      text-align: left;
+       top: 210px; 
+    color: paleturquoise;
+    
+   
+  }
+  .title-8 {
+      position: absolute;
+      text-align: left;
+       top: 250px; 
+    color:blueviolet;
+  }
+  
+  .title-9 {
+    position: absolute;
+    text-align: left;
+     top: 290px; 
+  color: #008000;
+  }
+  /* menu */
+  .menu p{
+    font-size:15px;
+  }
+  #menu{
+    font-size:20px;
+    display: inline-block;
+  }
+  /* heading */
+ .heading{
+   
+   margin-top: 0;
+   margin-left: 0;
+ }
+
+ .heading h2{
+   font-size: 15px;
+   text-align: center;
+ }
+
+ .button{
+   text-align: center;
+ }
+
+ .navbar{
+   font-size:10px;
+ }
+
+ .carousel-inner, .carousel-item{
+  display: absolute;
+}
+
+ 
+
+}
